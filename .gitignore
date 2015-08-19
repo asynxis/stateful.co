@@ -1,0 +1,8 @@
+logs
+pids
+*.log
+*.pid
+*.seed
+lib-cov
+coverage
+node_modules
