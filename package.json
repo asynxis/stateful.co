@@ -7,25 +7,22 @@
     "test": "test"
   },
   "repository": "https://github.com/asynxis/stateful.co.git",
-  "author": "asynxis",
+  "author": "Ivan Sorokin <ivan@sorokin.io> (https://i1skn.dev/)",
   "license": "MIT",
   "scripts": {
-    "test": "NODE_PATH=lib NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -u exports test/**/*"
+    "test": "NODE_PATH=lib NODE_ENV=test mocha"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.34",
-    "lodash": "^3.10.1",
+    "lodash": ">=4.17.13",
     "request": "^2.60.0"
   },
   "devDependencies": {
-    "istanbul": "^0.3.17",
-    "mocha": "^1.21.5",
-    "nock": "^2.9.1",
+    "mocha": "^6.2.0",
+    "nock": "^11.0.0",
     "should": "^4.1.0",
     "sinon": "^1.10.3",
-    "superagent": "^1.1.0",
+    "superagent": ">=3.7.0",
     "supertest": "^0.14.0"
   }
 }
