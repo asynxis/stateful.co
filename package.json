@@ -23,6 +23,6 @@
     "should": "^4.1.0",
     "sinon": "^1.10.3",
     "superagent": ">=3.7.0",
-    "supertest": "^0.14.0"
+    "supertest": "^6.3.3"
   }
 }
